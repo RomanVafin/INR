@@ -1,0 +1,12 @@
+NUMMED= 1
+           MEDIUM NO.  1 ( Water )
+ICRU_ID=276
+MEDTYP=2 NELEM 2 RHO= 1.00
+1 NUCLID=  1 DEL1=2.0                                     20.8
+2 NUCLID=  8 DEL2=1.0                                    103.7
+---------^--------^----------------^----------^----------^
+            ---- Extra file comment ----
+Data for elements of each medium are read on FORMAT:
+51 FORMAT(9X,I3,6X,E11.5,6X,E11.5,E11.5,E11.5)
+ Pos.:   ^10   	  ^19      		   ^36        ^47   	 ^58
+---------^--------^----------------^----------^----------^

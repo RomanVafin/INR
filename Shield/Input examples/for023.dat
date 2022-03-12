@@ -1,0 +1,20 @@
+          Input file FOR023.DAT for the SHIELD Transport Code (FORMATTED!)
+IXFIRS FORMAT(2I12):    22464095           0  ! Initial state of random number generator (seed)
+JPART0  FORMAT(I12):           2              ! Type of incident particle type JPART
+TMAX0 FORMAT(F12.3):       160.0         0.0  ! Incident energy (MeV) and Gaussian energy scatter
+Beam FORMAT(2E12.5):         0.5         0.5  ! Gaussian beam profile (SigmaX,SigmaY) in cm
+NSTAT  FORMAT(2I12):       10000        2500  ! Statistics NSTAT and step of saving of results
+OLN   FORMAT(E12.4):         0.0              ! Cutoff for neutron transport (MeV)
+writefile Frmt(A12):yyyyyynyyyyy              ! Flags for output (yes,no)
+MAKELN        (I12):           0              ! Zero always
+     Parameters for SWITCH ON/OFF nucl.reactions, straggling and mult.scatt
+DELE    FORMAT(I12):        0.05              ! Delta E (relative share ~0.1); keep 0.05 always
+STRAGGLING (YES,NO):YES                       ! Simulation of straggling (YES,NO) in capitals
+MULTIPLE SCATTERING (YES,NO):YES              ! Simulation of Coulomb scattering (YES,NO) in capitals
+ITYPST  FORMAT(I12):           1              ! Type of straggl: 0-Gaussian, 1-Vavilov-Landau
+ITYPMS  FORMAT(I12):           1              ! Type of mlt.sct: 0-Gaussian, 1-Moliere
+INUCRE  FORMAT(I12):           1              ! Nuclear reaction switcher: 1-ON, 0-OFF
+     Incident heavy ion (is used if JPART0.eq.25 only)
+APROJ,FORMAT(F12.3):         4.0              ! A of nucleus-projectile
+ZPROJ,FORMAT(F12.3):         2.0              ! Z of nucleus-projectile
+<------- 20X ------><-- DATA --><----------^----------------- Comments !---------------------------->

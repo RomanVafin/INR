@@ -1,0 +1,21 @@
+NUMMED= 4
+           MEDIUM NO.  1 ( Water )
+ICRU_ID=276
+MEDTYP=2 NELEM 2 RHO= 1.00
+1 NUCLID=  1 DEL1=2.0                                     20.8
+2 NUCLID=  8 DEL2=1.0                                    103.7
+           MEDIUM NO.  2 ( Air: 0.755N+0.245O )
+ICRU_ID=104
+MEDTYP=4 NELEM 2 RHO= 0.001205
+1 NUCLID=  7 DEL1= 3.7797E-08 RHO1= 8.7913E-04            80.00
+2 NUCLID=  8 DEL2= 1.2265E-08 RHO2= 3.2587E-04           103.20
+           MEDIUM NO.  3 ( Copper )
+ICRU_ID= 29
+MEDTYP=1
+1 NUCLID= 29
+           MEDIUM NO.  4 ( PMMA:C5-H8-O2 )
+ICRU_ID=223
+MEDTYP=2 NELEM 3 RHO= 1.19
+1 NUCLID=  1 DEL1=8.0                                     19.2
+2 NUCLID=  6 DEL2=5.0                                     81.0
+3 NUCLID=  8 DEL3=2.0                                    106.0
